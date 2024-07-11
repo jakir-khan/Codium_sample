@@ -1,0 +1,112 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+
+.contact form {
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .9);
+    text-align: center;
+}
+
+html {
+    font-size: 82.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact form .inputBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    /* Converted .2rem to 2px */
+    font-size: 17px;
+    /* Converted 1.7rem to 17px */
+    padding: 15px;
+    /* Converted 1.5rem to 15px */
+    margin: 10px 0;
+    /* Converted 1rem to 10px */
+    text-transform: none;
+    color: #333;
+}
+
+
+.contact form .inputBox input {
+    width: 45%;
+}
+
+.contact form textarea {
+    height: 150px;
+    width: 90%;
+    resize: none;
+}
+
+.contact form .inputBox input::placeholder,
+.contact form textarea::placeholder {
+    text-transform: capitalize;
+}
+
+.contact form .inputBox input:focus,
+.contact form textarea:focus {
+    border-color: black;
+}
+
+.cta {
+    background-color: #4285f4;
+
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+.heading {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 3rem;
+    color: black;
+    /* padding-bottom: 1rem; */
+    text-transform: uppercase;
+}
+
+.cta:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid black;
+
+}
+
+.header {
+    height: 10vh;
+}
